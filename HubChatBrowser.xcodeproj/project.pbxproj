@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0C0A9B1E0DE5340040ACDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C0A9A1E0DE5340040ACDF /* AppDelegate.swift */; };
+		FB0C0A9D1E0DE5340040ACDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C0A9C1E0DE5340040ACDF /* ViewController.swift */; };
+		FB0C0AA01E0DE5340040ACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0C0A9E1E0DE5340040ACDF /* Main.storyboard */; };
+		FB0C0AA21E0DE5340040ACDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0C0AA11E0DE5340040ACDF /* Assets.xcassets */; };
+		FB0C0AA51E0DE5340040ACDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0C0AA31E0DE5340040ACDF /* LaunchScreen.storyboard */; };
+		FB0C0AB01E0DE5340040ACDF /* HubChatBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C0AAF1E0DE5340040ACDF /* HubChatBrowserTests.swift */; };
+		FB0C0ABB1E0DE5340040ACDF /* HubChatBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C0ABA1E0DE5340040ACDF /* HubChatBrowserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0C0AAC1E0DE5340040ACDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0C0A8F1E0DE5340040ACDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0C0A961E0DE5340040ACDF;
+			remoteInfo = HubChatBrowser;
+		};
+		FB0C0AB71E0DE5340040ACDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0C0A8F1E0DE5340040ACDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0C0A961E0DE5340040ACDF;
+			remoteInfo = HubChatBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0C0A971E0DE5340040ACDF /* HubChatBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HubChatBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0C0A9A1E0DE5340040ACDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0C0A9C1E0DE5340040ACDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0C0A9F1E0DE5340040ACDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0C0AA11E0DE5340040ACDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0C0AA41E0DE5340040ACDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0C0AA61E0DE5340040ACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0C0AAB1E0DE5340040ACDF /* HubChatBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubChatBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0C0AAF1E0DE5340040ACDF /* HubChatBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubChatBrowserTests.swift; sourceTree = "<group>"; };
+		FB0C0AB11E0DE5340040ACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0C0AB61E0DE5340040ACDF /* HubChatBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubChatBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0C0ABA1E0DE5340040ACDF /* HubChatBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubChatBrowserUITests.swift; sourceTree = "<group>"; };
+		FB0C0ABC1E0DE5340040ACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0C0A941E0DE5340040ACDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C0AA81E0DE5340040ACDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C0AB31E0DE5340040ACDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0C0A8E1E0DE5340040ACDF = {
+			isa = PBXGroup;
+			children = (
+				FB0C0A991E0DE5340040ACDF /* HubChatBrowser */,
+				FB0C0AAE1E0DE5340040ACDF /* HubChatBrowserTests */,
+				FB0C0AB91E0DE5340040ACDF /* HubChatBrowserUITests */,
+				FB0C0A981E0DE5340040ACDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0C0A981E0DE5340040ACDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C0A971E0DE5340040ACDF /* HubChatBrowser.app */,
+				FB0C0AAB1E0DE5340040ACDF /* HubChatBrowserTests.xctest */,
+				FB0C0AB61E0DE5340040ACDF /* HubChatBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0C0A991E0DE5340040ACDF /* HubChatBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C0A9A1E0DE5340040ACDF /* AppDelegate.swift */,
+				FB0C0A9C1E0DE5340040ACDF /* ViewController.swift */,
+				FB0C0A9E1E0DE5340040ACDF /* Main.storyboard */,
+				FB0C0AA11E0DE5340040ACDF /* Assets.xcassets */,
+				FB0C0AA31E0DE5340040ACDF /* LaunchScreen.storyboard */,
+				FB0C0AA61E0DE5340040ACDF /* Info.plist */,
+			);
+			path = HubChatBrowser;
+			sourceTree = "<group>";
+		};
+		FB0C0AAE1E0DE5340040ACDF /* HubChatBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C0AAF1E0DE5340040ACDF /* HubChatBrowserTests.swift */,
+				FB0C0AB11E0DE5340040ACDF /* Info.plist */,
+			);
+			path = HubChatBrowserTests;
+			sourceTree = "<group>";
+		};
+		FB0C0AB91E0DE5340040ACDF /* HubChatBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C0ABA1E0DE5340040ACDF /* HubChatBrowserUITests.swift */,
+				FB0C0ABC1E0DE5340040ACDF /* Info.plist */,
+			);
+			path = HubChatBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0C0A961E0DE5340040ACDF /* HubChatBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0C0ABF1E0DE5340040ACDF /* Build configuration list for PBXNativeTarget "HubChatBrowser" */;
+			buildPhases = (
+				FB0C0A931E0DE5340040ACDF /* Sources */,
+				FB0C0A941E0DE5340040ACDF /* Frameworks */,
+				FB0C0A951E0DE5340040ACDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HubChatBrowser;
+			productName = HubChatBrowser;
+			productReference = FB0C0A971E0DE5340040ACDF /* HubChatBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0C0AAA1E0DE5340040ACDF /* HubChatBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0C0AC21E0DE5340040ACDF /* Build configuration list for PBXNativeTarget "HubChatBrowserTests" */;
+			buildPhases = (
+				FB0C0AA71E0DE5340040ACDF /* Sources */,
+				FB0C0AA81E0DE5340040ACDF /* Frameworks */,
+				FB0C0AA91E0DE5340040ACDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0C0AAD1E0DE5340040ACDF /* PBXTargetDependency */,
+			);
+			name = HubChatBrowserTests;
+			productName = HubChatBrowserTests;
+			productReference = FB0C0AAB1E0DE5340040ACDF /* HubChatBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0C0AB51E0DE5340040ACDF /* HubChatBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0C0AC51E0DE5340040ACDF /* Build configuration list for PBXNativeTarget "HubChatBrowserUITests" */;
+			buildPhases = (
+				FB0C0AB21E0DE5340040ACDF /* Sources */,
+				FB0C0AB31E0DE5340040ACDF /* Frameworks */,
+				FB0C0AB41E0DE5340040ACDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0C0AB81E0DE5340040ACDF /* PBXTargetDependency */,
+			);
+			name = HubChatBrowserUITests;
+			productName = HubChatBrowserUITests;
+			productReference = FB0C0AB61E0DE5340040ACDF /* HubChatBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0C0A8F1E0DE5340040ACDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NativeSolutions;
+				TargetAttributes = {
+					FB0C0A961E0DE5340040ACDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5JWGM7A2T3;
+						ProvisioningStyle = Automatic;
+					};
+					FB0C0AAA1E0DE5340040ACDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5JWGM7A2T3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB0C0A961E0DE5340040ACDF;
+					};
+					FB0C0AB51E0DE5340040ACDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5JWGM7A2T3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB0C0A961E0DE5340040ACDF;
+					};
+				};
+			};
+			buildConfigurationList = FB0C0A921E0DE5340040ACDF /* Build configuration list for PBXProject "HubChatBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0C0A8E1E0DE5340040ACDF;
+			productRefGroup = FB0C0A981E0DE5340040ACDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0C0A961E0DE5340040ACDF /* HubChatBrowser */,
+				FB0C0AAA1E0DE5340040ACDF /* HubChatBrowserTests */,
+				FB0C0AB51E0DE5340040ACDF /* HubChatBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0C0A951E0DE5340040ACDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C0AA51E0DE5340040ACDF /* LaunchScreen.storyboard in Resources */,
+				FB0C0AA21E0DE5340040ACDF /* Assets.xcassets in Resources */,
+				FB0C0AA01E0DE5340040ACDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C0AA91E0DE5340040ACDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C0AB41E0DE5340040ACDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0C0A931E0DE5340040ACDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C0A9D1E0DE5340040ACDF /* ViewController.swift in Sources */,
+				FB0C0A9B1E0DE5340040ACDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C0AA71E0DE5340040ACDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C0AB01E0DE5340040ACDF /* HubChatBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C0AB21E0DE5340040ACDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C0ABB1E0DE5340040ACDF /* HubChatBrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0C0AAD1E0DE5340040ACDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0C0A961E0DE5340040ACDF /* HubChatBrowser */;
+			targetProxy = FB0C0AAC1E0DE5340040ACDF /* PBXContainerItemProxy */;
+		};
+		FB0C0AB81E0DE5340040ACDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0C0A961E0DE5340040ACDF /* HubChatBrowser */;
+			targetProxy = FB0C0AB71E0DE5340040ACDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0C0A9E1E0DE5340040ACDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0C0A9F1E0DE5340040ACDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0C0AA31E0DE5340040ACDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0C0AA41E0DE5340040ACDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0C0ABD1E0DE5340040ACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0C0ABE1E0DE5340040ACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0C0AC01E0DE5340040ACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5JWGM7A2T3;
+				INFOPLIST_FILE = HubChatBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.HubChatBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB0C0AC11E0DE5340040ACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5JWGM7A2T3;
+				INFOPLIST_FILE = HubChatBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.HubChatBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB0C0AC31E0DE5340040ACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5JWGM7A2T3;
+				INFOPLIST_FILE = HubChatBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.HubChatBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubChatBrowser.app/HubChatBrowser";
+			};
+			name = Debug;
+		};
+		FB0C0AC41E0DE5340040ACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5JWGM7A2T3;
+				INFOPLIST_FILE = HubChatBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.HubChatBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubChatBrowser.app/HubChatBrowser";
+			};
+			name = Release;
+		};
+		FB0C0AC61E0DE5340040ACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5JWGM7A2T3;
+				INFOPLIST_FILE = HubChatBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.HubChatBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HubChatBrowser;
+			};
+			name = Debug;
+		};
+		FB0C0AC71E0DE5340040ACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5JWGM7A2T3;
+				INFOPLIST_FILE = HubChatBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.HubChatBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HubChatBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0C0A921E0DE5340040ACDF /* Build configuration list for PBXProject "HubChatBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0C0ABD1E0DE5340040ACDF /* Debug */,
+				FB0C0ABE1E0DE5340040ACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0C0ABF1E0DE5340040ACDF /* Build configuration list for PBXNativeTarget "HubChatBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0C0AC01E0DE5340040ACDF /* Debug */,
+				FB0C0AC11E0DE5340040ACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0C0AC21E0DE5340040ACDF /* Build configuration list for PBXNativeTarget "HubChatBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0C0AC31E0DE5340040ACDF /* Debug */,
+				FB0C0AC41E0DE5340040ACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0C0AC51E0DE5340040ACDF /* Build configuration list for PBXNativeTarget "HubChatBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0C0AC61E0DE5340040ACDF /* Debug */,
+				FB0C0AC71E0DE5340040ACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0C0A8F1E0DE5340040ACDF /* Project object */;
+}
